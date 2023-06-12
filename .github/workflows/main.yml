@@ -20,4 +20,4 @@ jobs:
       with:
         server: ftp.thefiguresconsultant.com
         username: figures
-        password: ${{ FTP_PASSWORD }}
+        password: ${{ secretsftp_password }}
