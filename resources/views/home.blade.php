@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-      Tailwind Starter Template - Landing Page Template: Tailwind Toolbox
+      The Figures Consultants
     </title>
     <meta name="description" content="Simple landind page" />
     <meta name="keywords" content="" />
@@ -44,7 +44,7 @@
         <div class="pl-4 flex items-center">
           <!-- Logo -->
           
-           <img src="{{URL::asset('/img/logo-icon.png')}}" alt="Logo"  href="{{ url('/') }}">
+           <img src="{{URL::asset('/img/logo.png')}}" alt="Logo"  href="{{ url('/') }}">
         </div>
         <div class="block lg:hidden pr-4">
           <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
@@ -69,7 +69,7 @@
               <a class="inline-block py-2 px-4 text-black font-bold no-underline visited:text-purple-600" href="{{-- url('/') --}}#portfolio">Portfolio</a>
             </li-->
             <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black font-bold no-underline visited:text-purple-600" href="{{ url('/') }}#team">Team</a>
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline visited:text-purple-600" href="{{ url('/') }}#project">Project Management</a>
             </li>
             <li class="mr-3">
               <a class="inline-block py-2 px-4 text-black font-bold no-underline visited:text-purple-600" href="{{ url('/') }}#contact">Contuct Us</a>
@@ -108,7 +108,7 @@
         </div>
         <div class="swiper-slide">
           <div class="h-screen w-full h-screen" 
-          style="background-image: url({{URL::asset('/img/slide/plan.avif')}}); background-repeat: no-repeat; background-size: 100% 100%;;">
+          style="background-image: url({{URL::asset('/img/slide/plan.jpg')}}); background-repeat: no-repeat; background-size: 100% 100%;;">
             <div class="pt-24">
               <p class="text-center mb-10 mt-72 text-4xl font-semibold">Starting a business or in need of advice? Consult with us and win.</p>
               <p class="text-center mb-10 text-2xl font-semibold">Software Development, Tax Services, Business Consultancy.</p>
@@ -158,7 +158,7 @@
         </div>
         <div class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            <h3 class="text-2xl text-gray-800 font-bold leading-none mb-3">
               The Leading Business Consultant in Zimbabwe
             </h3>
             <p class="text-gray-600 mb-8">
@@ -177,7 +177,7 @@
           </div>
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
-              <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              <h3 class="text-2xl text-gray-800 font-bold leading-none mb-3">
                 Our Vision & Mission
               </h3>
               <p class="text-gray-600 mb-8">
@@ -289,19 +289,21 @@
         </div>
       </div>
     </section>
-    <section class="bg-gray-100 py-8" id="team">
+    <section class="bg-gray-100 py-8" id="project">
       <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Pricing
+          Project Management
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
+        <h3 class="text-2xl my-6 font-bold leading-tight text-center ">What the Figures Consultant can do for you.</h3>
+        <p class="text-center"></p>
         <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
           <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
             <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Free
+              <div class="p-8 text-2xl font-bold text-center border-b-4">
+                Construction Project Management
               </div>
               <ul class="w-full text-center text-sm">
                 <li class="border-b py-4">Thing</li>
@@ -323,7 +325,7 @@
           </div>
           <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="w-full p-8 text-3xl font-bold text-center">Basic</div>
+              <div class="w-full p-8 text-2xl font-bold text-center">Procument and Monitoring</div>
               <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
               <ul class="w-full text-center text-base font-bold">
                 <li class="border-b py-4">Thing</li>
@@ -346,8 +348,8 @@
           </div>
           <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
             <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Pro
+              <div class="p-8 text-2xl font-bold text-center border-b-4">
+                Investment and Advisory Services
               </div>
               <ul class="w-full text-center text-sm">
                 <li class="border-b py-4">Thing</li>
@@ -389,7 +391,7 @@
       <div class="container mx-auto px-8">
         <div class="w-full flex flex-col md:flex-row py-6">
           <div class="flex-1 mb-6 mr-5">
-            <img src="{{URL::asset('/img/logo-icon.png')}}" alt="Logo"  href="{{ url('/') }}">
+            <img src="{{URL::asset('/img/logo.png')}}" alt="Logo"  href="{{ url('/') }}">
           </div>
           <div class="flex-1">
             <p class="uppercase text-gray-500 md:mb-6">Links</p>
