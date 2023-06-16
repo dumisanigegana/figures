@@ -18,6 +18,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.197.189.231.226
+        server: ftp.thefiguresconsultant.com
         username: figures
         password: ${{ secrets.password }}
