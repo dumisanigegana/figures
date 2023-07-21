@@ -11,11 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('references', function (Blueprint $table) {
+        Schema::create('employers', function (Blueprint $table) {
             $table->id();
-            $table->integer('contactor_id');
-            $table->string('name');
+            $table->string('fname');
+            $table->string('email');
             $table->string('phone');
+            $table->string('address');
+            $table->boolean('terms');
             $table->timestamps();
         });
     }
@@ -25,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('references');
+        Schema::dropIfExists('employers');
     }
 };
